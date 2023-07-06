@@ -1,0 +1,546 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LearnEnglish - Home</title>
+    <link rel="stylesheet" href="src/css/style.css" />
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- material icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="light">
+    <!-- hero -->
+    <section class="hero">
+      <div class="header__container">
+        <div class="header">
+          <a href="" class="logo">
+            <span class="logo__text">Learn<span>English.</span></span>
+          </a>
+
+          <div class="navbar">
+            <button class="close-navbar-btn" data-nav-close>
+              <span class="material-icons-outlined">close</span>
+            </button>
+
+            <ul class="nav__list">
+              <div class="nav__list__container">
+                <li class="nav__item" data-nav-close>
+                  <a href="" class="nav__link">Courses</a>
+                </li>
+
+                <li class="nav__item" data-nav-close>
+                  <a href="" class="nav__link">Blog</a>
+                </li>
+
+                <li class="nav__item" data-nav-close>
+                  <a href="" class="nav__link">About</a>
+                </li>
+
+                <li class="nav__item" data-nav-close>
+                  <a href="" class="nav__link">Contact</a>
+                </li>
+
+                <li class="nav__item profile" data-nav-close>
+                  <img class="profile-img" />
+
+                  <div class="user__profile">
+                    <div class="top">
+                      <div class="user__pic">
+                        <img />
+                      </div>
+                      <div class="user__data">
+                        <div class="user__title">Shahid</div>
+                        <div class="user__email">
+                          shahidkhanlove19@gmail.com
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="bottom">
+                      <button class="signout-btn">Sign out</button>
+                    </div>
+                  </div>
+                </li>
+              </div>
+
+              <li class="toggle-theme-btn" data-theme-toggler>
+                <span class="material-icons-outlined">light_mode</span>
+                <span class="material-icons-outlined">dark_mode</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="open-navbar-btn" data-nav-open>
+            <span class="material-icons-outlined">menu</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- mobile menu -->
+      <div class="mob__menu">
+        <button class="close-navbar-btn" data-nav-close>
+          <span class="material-icons-outlined">close</span>
+        </button>
+
+        <li class="toggle-theme-btn" data-theme-toggler>
+          <span class="material-icons-outlined">light_mode</span>
+          <span class="material-icons-outlined">dark_mode</span>
+        </li>
+
+        <ul class="nav__list">
+          <div class="nav__list__container">
+            <li class="nav__item" data-nav-close>
+              <a href="" class="nav__link">Courses</a>
+            </li>
+
+            <li class="nav__item" data-nav-close>
+              <a href="" class="nav__link">Blog</a>
+            </li>
+
+            <li class="nav__item" data-nav-close>
+              <a href="" class="nav__link">About</a>
+            </li>
+
+            <li class="nav__item" data-nav-close>
+              <a href="" class="nav__link">Contact</a>
+            </li>
+          </div>
+        </ul>
+      </div>
+
+      <div class="hero__content">
+        <div class="hero__text">
+          <span>Learn English,</span><span class="anim-text">Reading</span>
+        </div>
+        <div class="search__field">
+          <input
+            type="text"
+            placeholder="Search vocabular, reading, conversation and grammar..."
+            class="input__search"
+          />
+          <span class="material-icons-outlined icon">search</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- category -->
+    <section class="category">
+      <div class="category__container">
+        <div class="section__title">Choose your category and conquer</div>
+        <ul class="category__list">
+          <li class="category__item active">
+            <div class="category__data">
+              <div class="images">
+                <img src="src/images/reading-dark.png" class="png" />
+                <img src="src/images/reading.png" class="png" />
+              </div>
+            </div>
+            <div class="category__text">Reading</div>
+            <div class="category__status">
+              <span class="material-icons-outlined">lock</span>
+            </div>
+          </li>
+
+          <li class="category__item">
+            <div class="category__data">
+              <div class="images">
+                <img src="src/images/vocabulary-dark.png" class="png" />
+                <img src="src/images/vocabulary.png" class="png" />
+              </div>
+            </div>
+            <div class="category__text">Vocabulary</div>
+            <div class="category__status">
+              <span class="material-icons-outlined">lock</span>
+            </div>
+          </li>
+
+          <li class="category__item locked">
+            <div class="category__data">
+              <div class="images">
+                <img src="src/images/conversation-dark.png" class="png" />
+                <img src="src/images/conversation.png" class="png" />
+              </div>
+            </div>
+            <div class="category__text">Conversation</div>
+            <div class="category__status">
+              <span class="material-icons-outlined">lock</span>
+            </div>
+          </li>
+
+          <li class="category__item locked">
+            <div class="category__data">
+              <div class="images">
+                <img src="src/images/grammar-dark.png" class="png" />
+                <img src="src/images/grammar.png" class="png" />
+              </div>
+            </div>
+            <div class="category__text">Grammar</div>
+            <div class="category__status">
+              <span class="material-icons-outlined">lock</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- view options -->
+    <section class="view__options">
+      <div class="view__options__container">
+        <div class="show__filter filter-btn-main">
+          <button class="show__filter__btn filter-btn">
+            <span class="material-icons-outlined">filter_list</span> Filter
+          </button>
+        </div>
+        <div class="filter__area">
+          <div class="filter">
+            <select name="filter__lessons" id="filter__lessons">
+              <option value="today" selected>Today</option>
+              <option value="today">Yesterday</option>
+              <option value="today">Last Week</option>
+              <option value="today">Last Month</option>
+              <option value="today">Last Year</option>
+            </select>
+          </div>
+
+          <button class="view-btn">
+            <span class="material-icons-outlined">dns</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- lesson cards -->
+    <section class="lessons">
+      <div class="lessons__container">
+        <div class="loading" data-info-msg>
+          <span class="username"></span> Loading Lessons, please wait ...
+        </div>
+        <div class="no-data" data-info-msg>
+          <div class="no-data-container">
+            <img src="src/images/no-data-dark.png" class="no-data-img" />
+            <img src="src/images/no-data.png" class="no-data-img" />
+          </div>
+          <div class="no-data-text">
+            <span class="username"></span> No Lessons Found!
+          </div>
+        </div>
+        <div class="error" data-info-msg>
+          <span class="username"></span> Something Went Wrong! please try again.
+        </div>
+
+        <div class="lesson__cards">
+          <!-- <div class="lesson__card" data-lesson-card>
+            <div class="lesson__details">
+              <div class="num">01</div>
+              <div class="lesson__data">
+                <div class="lesson__name">
+                  Importance of Attitude hwerweradsdflkf asdlkfj aldskfjalsdf
+                </div>
+                <div class="publish__date">
+                  Publised: <span>2023-05-09</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="dl__btns">
+              <button class="btn-primary play-mini-audio-btn" data-play-btn>
+                <span class="material-icons">play_arrow</span>
+              </button>
+
+              <button class="btn-primary download-aud-btn">
+                <span class="material-icons-outlined">file_download</span>
+              </button>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <section class="footer">
+      <div class="footer__container">
+        <div class="copyright">
+          &copy; <span class="coypright-year"></span>
+          <a href="">Shahid Safi.</a> All rights reserved.
+        </div>
+      </div>
+    </section>
+
+    <!-- go to top -->
+    <a href="#" class="go-to-top-btn">
+      <img src="src/images/rocket.png" />
+    </a>
+
+    <!-- audio player -->
+    <section class="audio__player">
+      <div class="audio__player__container">
+        <div class="audio__player__main" data-audio-player>
+          <div class="top__section" data-audio-player-top-sec>
+            <div class="container"></div>
+          </div>
+
+          <div class="bottom__section">
+            <input
+              type="range"
+              class="audio-progressbar progressbar"
+              min="0"
+              max="100"
+              value="0"
+            />
+
+            <div class="audio__time">
+              <span class="current-time" data-audio-current-time>00:00</span>
+              <span class="end-tiem" data-audio-end-time>00:00</span>
+            </div>
+
+            <div class="player__container">
+              <div class="lesson__details">
+                <div class="num" data-audio-lesson-num>01</div>
+                <div class="lesson__name" data-audio-lesson-name>
+                  Vocabulary fasfasdfadsfasdfasdf fasfasdfadsfasdfasdf
+                </div>
+              </div>
+
+              <div class="player__btns">
+                <button
+                  class="repeat-audio-btn btn-has-state btn-tooltip"
+                  data-tooltip-text="Repeat"
+                  data-action-btn
+                >
+                  <span class="material-icons">repeat</span>
+                </button>
+
+                <button
+                  class="play-audio-btn btn-tooltip"
+                  data-tooltip-text="Play audio"
+                  data-master-play-btn
+                >
+                  <span class="material-icons">play_arrow</span>
+                </button>
+
+                <button
+                  class="mini-audio-btn btn-has-state btn-tooltip"
+                  data-tooltip-text="Minimize player"
+                  data-action-btn
+                >
+                  <span class="material-icons">close_fullscreen</span>
+                </button>
+
+                <button
+                  class="expand-audio-btn btn-has-state btn-tooltip text-mode-btn"
+                  data-tooltip-text="Read mode"
+                  data-action-btn
+                >
+                  <span class="material-icons-outlined">article</span>
+                </button>
+
+                <div class="volume__mini">
+                  <div class="container">
+                    <input
+                      type="range"
+                      class="volume-mini-progressbar progressbar"
+                      min="0"
+                      max="100"
+                      value="50"
+                    />
+                  </div>
+                  <button
+                    class="volume-mini-btn btn-has-state btn-tooltip"
+                    data-tooltip-text="Volume"
+                    data-action-btn
+                  >
+                    <span class="material-icons-outlined">volume_up</span>
+                  </button>
+                </div>
+              </div>
+
+              <div class="volume__btns">
+                <span class="material-icons icon">volume_up</span>
+                <input
+                  type="range"
+                  class="volume-progressbar progressbar"
+                  min="0"
+                  max="100"
+                  value="50"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- download audio -->
+    <div class="download__audio popup" id="downloadAudioPopup">
+      <span class="material-icons close-btn" data-modal-close>close</span>
+      <div class="container">
+        <div class="title">Select an option</div>
+        <ul>
+          <li
+            class="download__item"
+            data-audio-download
+            data-modal-open="#downloadProgressbar"
+          >
+            <span class="material-icons-outlined">file_download</span>
+            Download Audio
+          </li>
+
+          <!-- <li class="download__item">
+            <span class="material-icons-outlined">picture_as_pdf</span>
+            Download PDF
+          </li> -->
+        </ul>
+      </div>
+    </div>
+
+    <!-- download progressbar -->
+    <div class="download__progressbar__main" id="downloadProgressbar">
+      <button class="minimize-btn btn-no-anim">
+        <span class="material-icons-outlined">expand_more</span>
+      </button>
+
+      <div class="container">
+        <div class="container__main">
+          <div class="left__row">
+            <div class="image">
+              <img src="src/images/downloading.gif" alt="" />
+              <img src="src/images/downloading-dark.gif" alt="" />
+            </div>
+          </div>
+
+          <div class="right__row">
+            <div class="col col-1">
+              <div class="download__info">
+                <div class="title">Downloading audio...</div>
+                <div class="progress__value">0%</div>
+              </div>
+
+              <div class="download__progressbar">
+                <div class="download__progressbar__full"></div>
+              </div>
+            </div>
+
+            <div class="col-2">
+              <button class="download-cancel-btn btn-no-anim">
+                <span class="material-icons-outlined icon">close</span>
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="act__btns">
+          <button class="download-cancel-btn btn-no-anim">
+            <span class="material-icons-outlined icon">close</span>
+            Cancel
+          </button>
+          <button class="open-link-btn btn-no-anim">
+            <span class="material-icons-outlined icon">open_in_new</span>
+            Open Link
+          </button>
+        </div> -->
+        <div class="download-cancel-msg msg">Download canceled!</div>
+      </div>
+    </div>
+
+    <!-- circular progressbar -->
+    <div class="circular__progressbar">
+      <div class="progress__value">0%</div>
+    </div>
+
+    <!-- user popup -->
+    <div class="user__popup">
+      <div class="popup__form">
+        <div class="label">Enter Your Name:</div>
+        <input
+          type="text"
+          class="user__input input-colred"
+          placeholder="e.g. Shahid"
+        />
+        <div class="error-msg msg"></div>
+      </div>
+
+      <li class="toggle-theme-btn fixed" data-theme-toggler>
+        <span class="material-icons-outlined">light_mode</span>
+        <span class="material-icons-outlined">dark_mode</span>
+      </li>
+    </div>
+
+    <!-- user settings popup -->
+    <div class="user__settings popup" id="userSetttings">
+      <span class="material-icons close-btn">close</span>
+      <div class="container">
+        <div class="label">Update Your Name:</div>
+        <input
+          type="text"
+          class="user__input input-colred"
+          placeholder="e.g. Shahid"
+        />
+        <div class="error-msg msg">hi</div>
+      </div>
+    </div>
+
+    <!-- login form -->
+    <div class="login popup">
+      <div class="logo">
+        <span class="logo__text">Learn<span>English.</span></span>
+      </div>
+      <div class="login__container">
+        <li class="toggle-theme-btn fixed" data-theme-toggler>
+          <span class="material-icons-outlined">light_mode</span>
+          <span class="material-icons-outlined">dark_mode</span>
+        </li>
+
+        <div class="login__form">
+          <button class="google-signin-btn">
+            <img src="src/images/google.png" />
+            Sign in with Google
+          </button>
+          <button class="no-login-btn">Continue without login</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- welcome user -->
+    <div class="welcome__user" data-modal-open="#userSettings">
+      <!-- Welcome,
+      <span class="username">Shahid!</span
+      ><span class="material-icons icon">waving_hand</span> -->
+
+      Welcome,
+      <span class="google-username"></span
+      ><span class="material-icons icon">waving_hand</span>
+    </div>
+
+    <!-- greet user -->
+    <div class="greet__user popup">
+      <div class="greet">Welcome, <span class="user">Shahid!</span></div>
+    </div>
+
+    <!-- overlay -->
+    <div class="overlay"></div>
+
+    <script src="src/js/api.js" type="module"></script>
+    <script src="src/js/main.js" type="module"></script>
+  </body>
+</html>
